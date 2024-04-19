@@ -7,7 +7,7 @@ import javax.validation.constraints.Size;
 import java.util.Set;
 
 @Data
-public class UserRequst {
+public class UserRequest {
 
     private Long id;
 
