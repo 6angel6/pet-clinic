@@ -6,11 +6,8 @@ import lombok.Data;
 
 import java.util.Set;
 
-/**
- * Data Transfer Object for User request
- */
 @Data
-public class UserRequest {
+public class ProfileRequest {
 
     private Long id;
 
@@ -21,14 +18,6 @@ public class UserRequest {
     @NotBlank
     @Size(min = 3, max = 50)
     private String lastName;
-
-    @NotBlank
-    @Size(min = 3, max = 20)
-    private String username;
-
-    @NotBlank
-    @Size(min = 6, max = 100)
-    private String password;
 
     private Set<String> roles;
 }

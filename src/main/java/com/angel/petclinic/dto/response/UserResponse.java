@@ -1,7 +1,10 @@
 package com.angel.petclinic.dto.response;
 
+import lombok.Data;
+
 import java.util.Set;
 
+@Data
 public class UserResponse {
 
     private Long Id;
