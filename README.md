@@ -1,4 +1,4 @@
-# Simple pet-clinic project
+# Simple Pet-Clinic REST API
 
 
 ## Features
