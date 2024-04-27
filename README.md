@@ -9,10 +9,10 @@
 
 ## Technologies Used
 
-- **Spring Boot**: Backend framework for building robust Java applications.
-- **Spring Data JPA**: Simplifies data access with Spring applications.
-- **Spring Web MVC**: Provides a model-view-controller architecture for building web applications.
-- **Swagger UI**: For interactive API documentation.
+- **Spring Boot**
+- **Spring Data JPA**
+- **Spring Web **
+- **Swagger UI**
 
 ## API Documentation
 
