@@ -21,5 +21,14 @@ spring:
         dialect: org.hibernate.dialect.PostgreSQLDialect
       open-in-view: false
       generate-ddl: true
-
+  flyway:
+    enabled: true
+    placeholderReplacement: false
+    baseline-on-migrate: true
+  mvc:
+    throw-exception-if-no-handler-found: true
+  servlet:
+    multipart:
+      max-file-size: 1MB
+      max-request-size: 10MB
 
