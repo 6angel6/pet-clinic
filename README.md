@@ -11,7 +11,6 @@
 
 - **Spring Boot**
 - **Spring Data JPA**
-- **Spring Web**
 - **Swagger UI**
 
 ## API Documentation
